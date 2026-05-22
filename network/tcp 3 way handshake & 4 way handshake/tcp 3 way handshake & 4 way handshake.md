@@ -36,7 +36,7 @@ TCP는 통신하는 양쪽 프로세스 사이에 연결을 설정/해제하여 
 
   - ESTABLISHED : 3 way handshake가 완료되어 클라이언트와 서버가 데이터를 주고받을 수 있는 상태이다.
 
-![alt text](tcp 3 way handshake & 4 way handshake 1.png)
+![TCP 3 way handshake 흐름](tcp%203%20way%20handshake%20%26%204%20way%20handshake%201.png)
 
 #### 연결 상태 변화
 
@@ -110,7 +110,7 @@ TCP는 통신하는 양쪽 프로세스 사이에 연결을 설정/해제하여 
 
   - CLOSED : TCP 연결이 완전히 종료된 상태이다.
 
-![alt text](tcp 3 way handshake & 4 way handshake 2.png)
+![TCP 4 way handshake 흐름](tcp%203%20way%20handshake%20%26%204%20way%20handshake%202.png)
 
 #### 연결 상태 변화
 
