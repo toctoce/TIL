@@ -24,7 +24,7 @@
 
 ## Java
 
-- [직렬화, 역직렬화, Serializable](spring/%EC%A7%81%EB%A0%AC%ED%99%94%2C%20%EC%97%AD%EC%A7%81%EB%A0%AC%ED%99%94%2C%20Serializable/%EC%A7%81%EB%A0%AC%ED%99%94%2C%20%EC%97%AD%EC%A7%81%EB%A0%AC%ED%99%94%2C%20Serializable.md)
+- [직렬화, 역직렬화, Serializable](java/%EC%A7%81%EB%A0%AC%ED%99%94%2C%20%EC%97%AD%EC%A7%81%EB%A0%AC%ED%99%94%2C%20Serializable/%EC%A7%81%EB%A0%AC%ED%99%94%2C%20%EC%97%AD%EC%A7%81%EB%A0%AC%ED%99%94%2C%20Serializable.md)
 - [ ] Logger
 
 ## Spring
