@@ -50,7 +50,6 @@ class Person implements Serializable {
 > 
 > serialVersionUID는 직렬화된 클래스의 버전 식별자이다. 역직렬화할 때 저장된 클래스의 serialVersionUID와 현재 클래스의 serialVersionUID가 다르면 InvalidClassException이 발생한다.
 
-## 직렬화 예시
 
 직렬화는 `ObjectOutputStream`의 `writeObject()`로 수행한다.
 
@@ -67,8 +66,6 @@ public static void main(String[] args) throws Exception {
     }
 }
 ```
-
-## 역직렬화 예시
 
 역직렬화는 `ObjectInputStream`의 `readObject()`로 수행한다.
 
