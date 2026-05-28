@@ -1,4 +1,4 @@
-## TCP Header
+# TCP Header
 
 TCP(Transmission Control Protocol)는 신뢰성 있는 전송 프로토콜이다.
 왜냐하면 데이터를 보내기 전에 먼저 연결을 설정하고, TCP가 보낸 모든 데이터는 수신자로부터 확인 응답을 받기 때문이다.
@@ -7,15 +7,15 @@ TCP 헤더와 그 안의 여러 필드를 더 자세히 살펴보자.
 
 ![TCP 헤더 1](TCP%20%ED%97%A4%EB%8D%94%201.png)
 
-### Source Port
+## Source Port
 
 출발지 포트는 **16비트 필드**이며, 송신자의 포트 번호를 나타낸다.
 
-### Destination Port
+## Destination Port
 
 목적지 포트는 **16비트 필드**이며, 수신자의 포트 번호를 나타낸다.
 
-### Sequence Number
+## Sequence Number
 
 Sequence Number는 **32비트 필드**이며, TCP 세션 동안 얼마나 많은 데이터가 전송되었는지를 나타낸다.
 
@@ -23,13 +23,13 @@ Sequence Number는 **32비트 필드**이며, TCP 세션 동안 얼마나 많은
 
 수신자는 이 Sequence Number를 사용하고, 그에 대한 확인 응답을 다시 보낸다.
 
-### Acknowledgment Number
+## Acknowledgment Number
 
 Acknowledgment Number는 **32비트 필드**이며, 수신자가 다음 TCP 세그먼트를 요청할 때 사용한다.
 
 이 값은 보통 Sequence Number에 `1`을 더한 값이다.
 
-### DO
+## DO
 
 DO는 **4비트 Data Offset 필드**이며, Header Length라고도 부른다.
 
@@ -39,13 +39,13 @@ DO는 **4비트 Data Offset 필드**이며, Header Length라고도 부른다.
 
 > Options 필드로 인해 TCP 헤더의 길이는 고정되어 있지 않다.
 
-### RSV
+## RSV
 
 RSV는 **3비트 Reserved 필드**이다.
 
 사용되지 않는 필드이며, 항상 `0`으로 설정된다.
 
-### Flags
+## Flags
 
 Flags는 **9비트 필드**이며, Control Bits라고도 부른다.
 
@@ -68,7 +68,7 @@ TCP는 이 플래그들을 사용해서 **연결을 설정**하고, **데이터�
 6. FIN : TCP 연결을 종료할 때 사용된다.(4-way handshake)
     - TCP는 전이중 통신, 즉 양방향 통신이기 때문에 양쪽 모두 FIN을 사용해야 연결이 정상적으로 종료된다.
 
-### Window
+## Window
 
 Window는 **16비트 필드**이며, 수신자가 받을 의사가 있는 바이트 수를 나타낸다.
 
@@ -76,19 +76,19 @@ Window는 **16비트 필드**이며, 수신자가 받을 의사가 있는 바이
 
 이를 위해 ACK 필드의 Sequence Number 이후로 몇 바이트를 더 받을 수 있는지를 지정한다.
 
-### Checksum
+## Checksum
 
 Checksum은 **16비트 필드**이며, TCP 헤더가 정상인지 확인하는 데 사용된다.
 
 즉, 전송 중 TCP 헤더나 데이터에 오류가 생겼는지 확인하기 위한 값이다.
 
-### Urgent Pointer
+## Urgent Pointer
 
 Urgent Pointer는 **16비트 필드**이며, URG 비트가 설정되었을 때 사용된다.
 
 긴급 데이터가 어디에서 끝나는지를 나타낸다.
 
-### Options
+## Options
 
 Options 필드는 선택적인 필드이다.
 
