@@ -18,9 +18,12 @@
 - [TCP vs UDP](network/TCP%20vs%20UDP/TCP%20vs%20UDP.md)
 - [TCP 헤더](network/TCP%20%ED%97%A4%EB%8D%94/TCP%20%ED%97%A4%EB%8D%94.md)
 - [UDP 헤더](network/UDP%20%ED%97%A4%EB%8D%94/UDP%20%ED%97%A4%EB%8D%94.md)
+- [ ] TCP 흐름 제어
 - [ ] TCP 혼잡 제어
 
 ## DB
+
+- [ ] 트랜잭션 격리수준
 
 ## Java
 
@@ -30,6 +33,11 @@
 ## Spring
 
 - [ ] [스프링 예외 처리](https://mangkyu.tistory.com/204)
+- [ ] Jackson 라이브러리
+
+## 개발
+- [ ] 단위테스트란?
+- [ ] 통합 테스트란?
 
 ## Web
 
