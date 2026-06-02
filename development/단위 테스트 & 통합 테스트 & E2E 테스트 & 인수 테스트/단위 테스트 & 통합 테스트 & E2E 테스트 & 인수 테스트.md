@@ -31,4 +31,4 @@ E2E 테스트는 가장 넓은 범위의 테스트이다.
 ## REFERENCE
 - [단위 테스트(Unit Test) & 통합 테스트(Integration Test)(Tistory)](https://whoamixzerone.tistory.com/79)
 - [통합테스트/인수테스트/E2E 테스트의 차이점이 무엇일까요?(Inflearn)](https://www.inflearn.com/community/questions/1369146/%ED%86%B5%ED%95%A9%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%9D%B8%EC%88%98%ED%85%8C%EC%8A%A4%ED%8A%B8-e2e-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%9D%98-%EC%B0%A8%EC%9D%B4%EC%A0%90%EC%9D%B4-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C%EC%9A%94?srsltid=AfmBOoproCmzIaeYpSsnPyNufiwuzDf7KM3K638RwUCrAV5uoxUzcXJX)
-- [E2E테스트 관련 포스팅(카카오 테크 블로그)](https://tech.kakaoent.com/front-end/2023/230209-e2e/)
+- [E2E 테스트 도입 경험기(카카오 테크 블로그)](https://tech.kakaoent.com/front-end/2023/230209-e2e/)
