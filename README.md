@@ -23,14 +23,14 @@
 
 ## DB
 
-- [트랜잭션 격리수준](<db/트랜잭션 격리수준.md>)
-- [SQL Injection](<db/SQL Injection.md>)
+- [트랜잭션 격리수준](<db/트랜잭션 격리수준/트랜잭션 격리수준.md>)
+- [SQL Injection](<db/SQL Injection/SQL Injection.md>)
 
 ## Java
 
 - [직렬화, 역직렬화, Serializable](<java/직렬화, 역직렬화, Serializable/직렬화, 역직렬화, Serializable.md>)
 - [ ] Logger
-- [TreeSet](<java/TreeSet.md>)
+- [TreeSet](<java/TreeSet/TreeSet.md>)
 
 ## Spring
 
