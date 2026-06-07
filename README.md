@@ -11,9 +11,10 @@
 | 목 |       | 28일 ✅ | 4일 ✅ |  |  |  |  |  |  |
 | 금 | 22일 ✅ |       |      |  |  |  |  |  |  |
 | 토 |       | 30일 ✅ |      |  |  |  |  |  |  |
-| 일 |       |       |      |  |  |  |  |  |  |
+| 일 |       |       | 7일 ✅ |  |  |  |  |  |  |
 
 ## Network
+
 - [TCP 3 way handshake & 4 way handshake](<network/tcp 3 way handshake & 4 way handshake/tcp 3 way handshake & 4 way handshake.md>)
 - [TCP vs UDP](<network/TCP vs UDP/TCP vs UDP.md>)
 - [TCP 헤더](<network/TCP 헤더/TCP 헤더.md>)
@@ -23,7 +24,8 @@
 
 - [트랜잭션 격리수준](<db/트랜잭션 격리수준/트랜잭션 격리수준.md>)
 - [SQL Injection](<db/SQL Injection/SQL Injection.md>)
-- [이상](<db/이상 현상/이상 현상.md>)
+- [이상 현상](<db/이상 현상/이상 현상.md>)
+- [낙관적 락 & 비관적 락](<db/낙관적 락 & 비관적 락/낙관적 락 & 비관적 락.md>)
 
 ## Java
 
@@ -32,18 +34,13 @@
 
 ## Spring
 
-
-
 ## Development
 
 - [단위 테스트 & 통합 테스트 & E2E 테스트 & 인수 테스트](<development/단위 테스트 & 통합 테스트 & E2E 테스트 & 인수 테스트/단위 테스트 & 통합 테스트 & E2E 테스트 & 인수 테스트.md>)
 
 ## Web
 
-
-
 ## Data Structure
-
 
 ## Algorithm
 
@@ -59,7 +56,6 @@
 - [ ] 세션, 토큰
 - [ ] 인증, 인가
 - [ ] AOP
-- [ ] 락
 - [ ] Jackson 라이브러리
 - [ ] Transactional, ReadOnly
 - [ ] [스프링 예외 처리](<https://mangkyu.tistory.com/204>)
