@@ -5,7 +5,7 @@
 ## 66-Day Commit
 |  | 5월    |       | 6월   |  |  |  |  |  |  |
 | --- |-------|-------|------| --- | --- | --- | --- | --- | --- |
-| 월 |       |       | 1일 ✅ |  |  |  |  |  |  |
+| 월 |       |       | 1일 ✅ | 8일 ✅ |  |  |  |  |  |
 | 화 |       | 26일 ✅ | 2일 ✅ |  |  |  |  |  |  |
 | 수 |       | 27일 ✅ |      |  |  |  |  |  |  |
 | 목 |       | 28일 ✅ | 4일 ✅ |  |  |  |  |  |  |
@@ -31,6 +31,7 @@
 
 - [직렬화, 역직렬화, Serializable](<java/직렬화, 역직렬화, Serializable/직렬화, 역직렬화, Serializable.md>)
 - [TreeSet](<java/TreeSet/TreeSet.md>)
+- [PriorityQueue](<java/PriorityQueue/PriorityQueue.md>)
 
 ## Spring
 

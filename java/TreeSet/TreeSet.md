@@ -1,7 +1,10 @@
 # TreeSet
 
-`TreeSet`은 중복을 허용하지 않고, 값을 정렬해서 저장한다.
-`java.util` 패키지에 있다.
+- 자바의 `TreeSet`은 java.util 패키지에 포함된 정렬된 집합을 구현한 클래스이다. 
+- `TreeSet`은 이진 탐색 트리의 일종인 레드-블랙 트리(Red-Black Tree) 구조로 구현되어 있으며, 요소를 저장할 때 자동으로 정렬해준다. 이 때문에 `TreeSet`은 중복을 허용하지 않으면서, 항상 정렬된 순서로 요소를 유지한다.
+- 삽입, 삭제, 탐색 모두 시간복잡도가 `O(logN)`이다.
+- 레드-블랙 트리 구조이기 때문에 `HashSet`과 다르게 `contains(x)`의 시간복잡도도 `O(logN)`이다.
+
 
 ```java
 TreeSet<Integer> set = new TreeSet<>();
