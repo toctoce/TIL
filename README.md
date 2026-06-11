@@ -8,7 +8,7 @@
 | 월 |       |       | 1일 ✅ | 8일 ✅ |  |  |  |  |  |
 | 화 |       | 26일 ✅ | 2일 ✅ | 9일 ✅ |  |  |  |  |  |
 | 수 |       | 27일 ✅ |      |  | 10일 ✅ |  |  |  |  |
-| 목 |       | 28일 ✅ | 4일 ✅ |  |  |  |  |  |  |
+| 목 |       | 28일 ✅ | 4일 ✅ |  | 11일 ✅ |  |  |  |  |
 | 금 | 22일 ✅ |       |      |  |  |  |  |  |  |
 | 토 |       | 30일 ✅ |      |  |  |  |  |  |  |
 | 일 |       |       | 7일 ✅ |  |  |  |  |  |  |
@@ -39,6 +39,10 @@
 
 - [단위 테스트 & 통합 테스트 & E2E 테스트 & 인수 테스트](<development/단위 테스트 & 통합 테스트 & E2E 테스트 & 인수 테스트/단위 테스트 & 통합 테스트 & E2E 테스트 & 인수 테스트.md>)
 
+## AI
+
+- [MCP](<ai/MCP/MCP.md>)
+
 ## Web
 
 - [쿠키 & 세션 & 토큰](<web/쿠키 & 세션 & 토큰/쿠키 & 세션 & 토큰.md>)
@@ -52,14 +56,10 @@
 - [이분 탐색 & Lower Bound & Upper Bound](<algorithm/이분 탐색 & Lower Bound & Upper Bound/이분 탐색 & Lower Bound & Upper Bound.md>)
 
 ## TODO
-- [ ] TCP 흐름 제어
-- [ ] TCP 혼잡 제어
 - [ ] Logger
 - [ ] 동시성 제어
 - [ ] 대칭키, 비대칭키, TLS
 - [ ] 멱등성, PUT, PATCH
-- [ ] 인증, 인가
 - [ ] AOP
 - [ ] Jackson 라이브러리
 - [ ] Transactional, ReadOnly
-- [ ] [스프링 예외 처리](<https://mangkyu.tistory.com/204>)
