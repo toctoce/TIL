@@ -30,7 +30,7 @@ Claude Desktop에서 filesystem MCP를 연결해 로컬 파일을 읽어보자.
 
 `npx`로 filesystem MCP 서버를 실행하기 때문에 Node.js를 준비한다.
 
-### 1. 실습용 폴더 생성
+#### 1. 실습용 폴더 생성
 
 filesystem MCP가 접근할 폴더를 만든다.
 
@@ -39,7 +39,7 @@ mkdir -p ~/mcp-test
 echo "MCP 실습용 메모입니다." > ~/mcp-test/memo.txt
 ```
 
-### 2. Claude Desktop 설정 열기
+#### 2. Claude Desktop 설정 열기
 
 Claude Desktop에서 설정 파일을 연다.
 
@@ -52,11 +52,11 @@ Claude Desktop 실행
 
 ![Claude Desktop 개발자 설정](<MCP 2.png>)
 
-설정 파일 위치는 보통 `~/Library/Application Support/Claude/claude_desktop_config.json` 이다.
+설정 파일 위치는 보통 `~/Library/Application Support/Claude/claude_desktop_config.json`이다.
 
 ![Claude Desktop 설정 파일](<MCP 3.png>)
 
-### 3. filesystem MCP 설정 추가
+#### 3. filesystem MCP 설정 추가
 
 `claude_desktop_config.json`에 아래 설정을 추가한다.
 
@@ -74,15 +74,16 @@ Claude Desktop 실행
   }
 }
 ```
+
 filesystem MCP는 설정한 폴더 안에서만 파일을 읽거나 쓸 수 있다.
 
-### 4. Claude Desktop 재시작
+#### 4. Claude Desktop 재시작
 
 설정 파일을 저장한 뒤 Claude Desktop을 완전히 종료하고 다시 실행한다.
 
-### 5. Claude에서 확인
+#### 5. Claude에서 확인
 
-Claude를 통해 `mcp-test` 폴더와, 저장되어 있는 파일 `memo.txt`에 접근을 시도해본다.
+Claude를 통해 `mcp-test` 폴더와 저장되어 있는 `memo.txt`에 접근을 시도해본다.
 
 ![filesystem MCP 실행 결과](<MCP 4.png>)
 
@@ -92,7 +93,7 @@ Claude를 통해 `mcp-test` 폴더와, 저장되어 있는 파일 `memo.txt`에 
 
 > 파일 읽기뿐 아니라 파일 생성, 수정도 가능하다.
 
-## 동작 흐름
+#### 동작 흐름
 
 Claude가 로컬 파일을 원래 알고 있는 것은 아니다.
 
@@ -100,6 +101,67 @@ Claude가 로컬 파일을 원래 알고 있는 것은 아니다.
 2. Claude는 filesystem MCP 서버가 제공하는 도구를 호출한다.
 3. 필요한 경우 사용자가 권한을 승인한다.
 4. 승인된 작업만 로컬 파일에 수행된다.
+
+### GitHub MCP 사용해보기
+
+GitHub MCP를 사용하면 저장소, 이슈, PR 등을 조회할 수 있다.
+
+Docker로 GitHub MCP 서버를 실행하기 때문에 Docker Desktop을 준비한다.
+
+#### 1. GitHub Personal Access Token 발급
+
+GitHub에서 `Personal Access Token`을 발급한다.
+
+```text
+GitHub
+→ Settings
+→ Developer settings
+→ Personal access tokens
+→ Generate new token
+```
+
+토큰은 필요한 저장소와 권한만 선택해서 발급한다.
+
+#### 2. GitHub MCP 설정 추가
+
+`claude_desktop_config.json`에 아래 설정을 추가한다.
+
+```json
+{
+  "mcpServers": {
+    "github": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "GITHUB_PERSONAL_ACCESS_TOKEN",
+        "ghcr.io/github/github-mcp-server"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "발급받은_토큰"
+      }
+    }
+  }
+}
+```
+
+#### 3. Claude Desktop 재시작
+
+설정 파일을 저장한 뒤 Claude Desktop을 완전히 종료하고 다시 실행한다.
+
+#### 4. Claude에서 확인
+
+Claude에게 GitHub 저장소나 이슈를 조회해달라고 요청한다.
+
+```text
+내 GitHub 저장소 목록을 확인해줘.
+```
+
+![GitHub MCP 도구 탐색 과정](<MCP 6.png>)
+
+![GitHub MCP 저장소 조회 결과](<MCP 7.png>)
 
 ## REFERENCE
 
