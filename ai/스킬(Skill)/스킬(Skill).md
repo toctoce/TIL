@@ -44,3 +44,6 @@ calculate-amount 스킬 써서 1000원 3000원 5000원 10000원 4명 계산해�
 ```
 
 > 스킬을 사용하라고 명시하지 않아도 사용하게끔 하려면 전역 스킬 위치인 `~/.codex/skills/<skill-name>/`로 옮기면 된다.
+
+## REFERENCE
+- https://openai.com/ko-KR/academy/skills/
