@@ -8,7 +8,7 @@
 | 월 |       |       | 1일 ✅ | 8일 ✅  | 15일 ✅ | 22일 ✅ |  |  |  |
 | 화 |       | 26일 ✅ | 2일 ✅ | 9일 ✅  | 16일 ✅ |  |  |  |  |
 | 수 |       | 27일 ✅ |      | 10일 ✅ |       | 24일 ✅ |  |  |  |
-| 목 |       | 28일 ✅ | 4일 ✅ | 11일 ✅ | 18일 ✅ |  |  |  |  |
+| 목 |       | 28일 ✅ | 4일 ✅ | 11일 ✅ | 18일 ✅ | 25일 ✅ |  |  |  |
 | 금 | 22일 ✅ |       |      | 12일 ✅ |       |  |  |  |  |
 | 토 |       | 30일 ✅ |      |       |       |  |  |  |  |
 | 일 |       |       | 7일 ✅ |       | 21일 ✅ |  |  |  |  |
@@ -19,7 +19,8 @@
 - [TCP vs UDP](<network/TCP vs UDP/TCP vs UDP.md>)
 - [TCP 헤더](<network/TCP 헤더/TCP 헤더.md>)
 - [UDP 헤더](<network/UDP 헤더/UDP 헤더.md>)
-- [SYN Flooding](network/SYN%20Flooding/SYN%20Flooding.md)
+- [SYN Flooding](<network/SYN Flooding/SYN Flooding.md>)
+- [로드 밸런싱](<network/로드 밸런싱/로드 밸런싱.md>)
 
 ## DB
 
