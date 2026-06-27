@@ -12,7 +12,7 @@ Codex를 CLI 환경에서 사용할 수 있다.
 1. `curl -fsSL https://chatgpt.com/codex/install.sh | sh` 명령어로 설치
 2. 터미널에서 `codex` 명령어를 실행한 뒤 로그인한다.
 
-![Codex CLI 실행](Codex CLI 1.png)
+![Codex CLI 실행](<Codex CLI 1.png>)
 
 ## Command line options
 > [참고 페이지](https://developers.openai.com/codex/cli/reference)
