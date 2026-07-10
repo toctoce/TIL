@@ -8,7 +8,7 @@
 | 월 |       |       | 1일 ✅ | 8일 ✅  | 15일 ✅ | 22일 ✅ | 29일 ✅ |  |  |
 | 화 |       | 26일 ✅ | 2일 ✅ | 9일 ✅  | 16일 ✅ |  | 30일 ✅ | 7일 ✅ |  |
 | 수 |       | 27일 ✅ |      | 10일 ✅ |       | 24일 ✅ |  | 8일 ✅ |  |
-| 목 |       | 28일 ✅ | 4일 ✅ | 11일 ✅ | 18일 ✅ | 25일 ✅ | 2일 ✅ |  |  |
+| 목 |       | 28일 ✅ | 4일 ✅ | 11일 ✅ | 18일 ✅ | 25일 ✅ | 2일 ✅ | 9일 ✅ |  |
 | 금 | 22일 ✅ |       |      | 12일 ✅ |       |  |  |  |  |
 | 토 |       | 30일 ✅ |      |       |       | 27일 ✅ | 4일 ✅ |  |  |
 | 일 |       |       | 7일 ✅ |       | 21일 ✅ | 28일 ✅ |  |  |  |
@@ -49,6 +49,10 @@
 ## Development
 
 - [단위 테스트 & 통합 테스트 & E2E 테스트 & 인수 테스트](<development/단위 테스트 & 통합 테스트 & E2E 테스트 & 인수 테스트/단위 테스트 & 통합 테스트 & E2E 테스트 & 인수 테스트.md>)
+
+## Ops
+
+- [Private Repository Clone(with Fine-grained token)](<ops/Private Repository Clone(with Fine-grained token)/Private Repository Clone(with Fine-grained token).md>)
 
 ## AI
 
