@@ -435,6 +435,28 @@ docker stop ps-platform-postgres
 sudo docker compose -f infra/compose.prod.yaml up -d
 ```
 
+## 6. 재배포 방식
+
+```bash
+sudo docker compose -f infra/compose.prod.yaml up -d --build
+```
+
+`--build` 옵션을 사용하면 이미지를 새로 빌드하고, 변경된 서비스의 컨테이너를 다시 생성한다. 별도로 `docker compose down`을 실행할 필요는 없다.
+
+단, `--build`는 Compose 파일에 `build` 설정이 있을 때만 의미가 있다.
+
+```yaml
+services:
+    backend:
+      build:
+        context: ../backend
+      image: ps-backend:latest
+```
+
+`backend` 폴더에 `Dockerfile`이 있어야 하며, 경로는 Compose 파일을 기준으로 작성한다.
+
+이제 `docker compose up` 명령어로 재배포할 수 있다.
+
 ## REFERENCE
 
 - https://hub.docker.com/_/postgres#docker-secrets
