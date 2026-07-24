@@ -80,6 +80,7 @@
 - [인증 & 인가](<web/인증 & 인가/인증 & 인가.md>)
 - [Web Server & WAS](<web/Web Server & WAS/Web Server & WAS.md>)
 - [CSRF](<web/CSRF/CSRF.md>)
+- [XSS](<web/XSS/XSS.md>)
 
 ## Data Structure
 
