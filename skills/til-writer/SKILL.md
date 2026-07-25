@@ -21,7 +21,8 @@ description: Use this skill when writing, refining, or reviewing Korean TIL mark
 - 문서마다 내용에 맞게 구조를 정한다.
 - 비교가 필요한 내용은 표로 정리한다.
 - 절차가 필요한 내용은 번호 목록으로 정리한다.
-- 참고자료가 있으면 문서 맨 아래에 `## REFERENCE`를 작성한다.
+- 사용자가 참고 URL을 제공했거나 URL을 문서에 추가해 달라고 요청한 경우에만 문서 맨 아래에 `## REFERENCE`를 작성한다.
+- 별도의 참고 URL이 없다면 `## REFERENCE`를 추가하지 않는다.
 
 ## 코드와 용어
 
