@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="290" height="178" viewBox="0 0 290 178" role="img" aria-labelledby="title desc">
+  <title id="title">학습 기록</title>
+  <desc id="desc">2026년 5월 18일부터 8월 9일까지의 TIL 작성 현황</desc>
+
+  <style>
+    .label {
+      fill: #57606a;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 9px;
+    }
+
+    .count {
+      fill: #24292f;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-size: 10px;
+      font-weight: 600;
+    }
+
+    .empty { fill: #ebedf0; }
+    .filled { fill: #2da44e; }
+
+    @media (prefers-color-scheme: dark) {
+      .label { fill: #8c959f; }
+      .count { fill: #c9d1d9; }
+      .empty { fill: #21262d; }
+      .filled { fill: #39d353; }
+    }
+  </style>
+
+  <defs>
+    <pattern id="empty-grid" x="44" y="28" width="17" height="17" patternUnits="userSpaceOnUse">
+      <rect class="empty" width="13" height="13" rx="2" />
+    </pattern>
+  </defs>
+
+  <text class="label" x="44" y="18">5월</text>
+  <text class="label" x="78" y="18">6월</text>
+  <text class="label" x="163" y="18">7월</text>
+  <text class="label" x="231" y="18">8월</text>
+
+  <text class="label" x="17" y="38">월</text>
+  <text class="label" x="17" y="72">수</text>
+  <text class="label" x="17" y="106">금</text>
+  <text class="label" x="17" y="140">일</text>
+
+  <rect x="44" y="28" width="204" height="119" fill="url(#empty-grid)" />
+
+  <g class="filled">
+    <rect x="44" y="96" width="13" height="13" rx="2"><title>2026-05-22 작성</title></rect>
+
+    <rect x="61" y="45" width="13" height="13" rx="2"><title>2026-05-26 작성</title></rect>
+    <rect x="61" y="62" width="13" height="13" rx="2"><title>2026-05-27 작성</title></rect>
+    <rect x="61" y="79" width="13" height="13" rx="2"><title>2026-05-28 작성</title></rect>
+    <rect x="61" y="113" width="13" height="13" rx="2"><title>2026-05-30 작성</title></rect>
+
+    <rect x="78" y="28" width="13" height="13" rx="2"><title>2026-06-01 작성</title></rect>
+    <rect x="78" y="45" width="13" height="13" rx="2"><title>2026-06-02 작성</title></rect>
+    <rect x="78" y="79" width="13" height="13" rx="2"><title>2026-06-04 작성</title></rect>
+    <rect x="78" y="130" width="13" height="13" rx="2"><title>2026-06-07 작성</title></rect>
+
+    <rect x="95" y="28" width="13" height="13" rx="2"><title>2026-06-08 작성</title></rect>
+    <rect x="95" y="45" width="13" height="13" rx="2"><title>2026-06-09 작성</title></rect>
+    <rect x="95" y="62" width="13" height="13" rx="2"><title>2026-06-10 작성</title></rect>
+    <rect x="95" y="79" width="13" height="13" rx="2"><title>2026-06-11 작성</title></rect>
+    <rect x="95" y="96" width="13" height="13" rx="2"><title>2026-06-12 작성</title></rect>
+
+    <rect x="112" y="28" width="13" height="13" rx="2"><title>2026-06-15 작성</title></rect>
+    <rect x="112" y="45" width="13" height="13" rx="2"><title>2026-06-16 작성</title></rect>
+    <rect x="112" y="79" width="13" height="13" rx="2"><title>2026-06-18 작성</title></rect>
+    <rect x="112" y="130" width="13" height="13" rx="2"><title>2026-06-21 작성</title></rect>
+
+    <rect x="129" y="28" width="13" height="13" rx="2"><title>2026-06-22 작성</title></rect>
+    <rect x="129" y="62" width="13" height="13" rx="2"><title>2026-06-24 작성</title></rect>
+    <rect x="129" y="79" width="13" height="13" rx="2"><title>2026-06-25 작성</title></rect>
+    <rect x="129" y="113" width="13" height="13" rx="2"><title>2026-06-27 작성</title></rect>
+    <rect x="129" y="130" width="13" height="13" rx="2"><title>2026-06-28 작성</title></rect>
+
+    <rect x="146" y="28" width="13" height="13" rx="2"><title>2026-06-29 작성</title></rect>
+    <rect x="146" y="45" width="13" height="13" rx="2"><title>2026-06-30 작성</title></rect>
+    <rect x="146" y="79" width="13" height="13" rx="2"><title>2026-07-02 작성</title></rect>
+    <rect x="146" y="113" width="13" height="13" rx="2"><title>2026-07-04 작성</title></rect>
+
+    <rect x="163" y="45" width="13" height="13" rx="2"><title>2026-07-07 작성</title></rect>
+    <rect x="163" y="62" width="13" height="13" rx="2"><title>2026-07-08 작성</title></rect>
+    <rect x="163" y="79" width="13" height="13" rx="2"><title>2026-07-09 작성</title></rect>
+    <rect x="163" y="113" width="13" height="13" rx="2"><title>2026-07-11 작성</title></rect>
+
+    <rect x="180" y="62" width="13" height="13" rx="2"><title>2026-07-15 작성</title></rect>
+    <rect x="180" y="96" width="13" height="13" rx="2"><title>2026-07-17 작성</title></rect>
+
+    <rect x="197" y="79" width="13" height="13" rx="2"><title>2026-07-23 작성</title></rect>
+    <rect x="197" y="96" width="13" height="13" rx="2"><title>2026-07-24 작성</title></rect>
+    <rect x="197" y="113" width="13" height="13" rx="2"><title>2026-07-25 작성</title></rect>
+
+    <rect x="214" y="28" width="13" height="13" rx="2"><title>2026-07-27 작성</title></rect>
+    <rect x="231" y="28" width="13" height="13" rx="2"><title>2026-08-03 작성</title></rect>
+  </g>
+
+  <text class="count" x="274" y="166" text-anchor="end">38일 기록</text>
+</svg>
