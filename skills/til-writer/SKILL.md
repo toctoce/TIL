@@ -32,13 +32,13 @@ description: Use this skill when writing, refining, or reviewing Korean TIL mark
 - 코드 예시는 fenced code block을 사용한다.
 - 이미지 링크 경로는 항상 `<...>`로 감싼다.
 - 이미지 등 추가 파일 이름은 `주제 + 숫자` 형식으로 작성하고 문서 링크에도 반영한다.
-- README의 학습 기록 이미지는 예외로 `assets/Study Log.svg`를 사용한다.
+- README의 학습 기록 이미지는 예외로 `assets/StudyLog.svg`를 사용한다.
 
 ## README 규칙
 
 - 새 TIL 문서를 만들면 `README.md`의 알맞은 카테고리에 링크를 추가한다.
 - README의 파일 경로는 항상 `<...>`로 감싼다.
-- TIL 문서를 작성하거나 수정하면 `assets/Study Log.svg`의 해당 날짜를 작성 상태로 변경한다.
+- TIL 문서를 작성하거나 수정하면 `assets/StudyLog.svg`의 해당 날짜를 작성 상태로 변경한다.
 - 해당 날짜의 셀이 이미 작성 상태라면 중복으로 추가하거나 기록 일수를 늘리지 않는다.
 - 필요한 주차나 월이 SVG에 없다면 기존 디자인을 유지하면서 범위를 확장한다.
 - 잔디밭을 수정할 때 SVG의 총 기록 일수도 함께 갱신한다.

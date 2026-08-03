@@ -4,7 +4,7 @@
 
 ## 학습 기록
 
-![Study Log](assets/Study Log.svg)
+![학습 기록 잔디밭](assets/StudyLog.svg)
 
 ## Network
 
