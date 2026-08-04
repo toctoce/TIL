@@ -79,6 +79,7 @@
 - [CORS](<web/CORS/CORS.md>)
 - [웹 브라우저에 www.google.com을 입력하면?](<web/웹 브라우저에 www.google.com을 입력하면/웹 브라우저에 www.google.com을 입력하면.md>)
 - [HTTP 멱등성](<web/HTTP 멱등성/HTTP 멱등성.md>)
+- [POST & PUT & PATCH 메서드](<web/POST & PUT & PATCH 메서드/POST & PUT & PATCH 메서드.md>)
 
 ## Data Structure
 
@@ -91,8 +92,6 @@
 ## TODO
 - [ ] Logger
 - [ ] 동시성 제어
-- [ ] 대칭키, 비대칭키, TLS
-- [ ] 멱등성, PUT, PATCH
 - [ ] AOP
 - [ ] Jackson 라이브러리
 - [ ] Transactional, ReadOnly
