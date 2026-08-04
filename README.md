@@ -53,10 +53,12 @@
 - [알고리즘 사이트 배포 - HTTPS 설정 (3)](<project/알고리즘 사이트 배포 - HTTPS 설정 (3)/알고리즘 사이트 배포 - HTTPS 설정 (3).md>)
 - [Google Analytics 붙이기](<project/Google Analytics 붙이기/Google Analytics 붙이기.md>)
 - [Docker로 배포 관리하기](<project/Docker로 배포 관리하기/Docker로 배포 관리하기.md>)
+- [CI/CD 도입하기](<project/CI CD 도입하기/CI CD 도입하기.md>)
 
 ## Ops
 
 - [Private Repository Clone(with Fine-grained token)](<ops/Private Repository Clone(with Fine-grained token)/Private Repository Clone(with Fine-grained token).md>)
+- [Docker](<ops/Docker/Docker.md>)
 
 ## AI
 
@@ -76,6 +78,7 @@
 - [XSS](<web/XSS/XSS.md>)
 - [CORS](<web/CORS/CORS.md>)
 - [웹 브라우저에 www.google.com을 입력하면?](<web/웹 브라우저에 www.google.com을 입력하면/웹 브라우저에 www.google.com을 입력하면.md>)
+- [HTTP 멱등성](<web/HTTP 멱등성/HTTP 멱등성.md>)
 
 ## Data Structure
 
